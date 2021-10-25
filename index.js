@@ -2,6 +2,8 @@ const newrelic = require("newrelic");
 const express = require("express");
 const parse = require("url").parse;
 
+const { abc } = require("./modules/abc")
+
 const app = express()
 const port = 3000
 
